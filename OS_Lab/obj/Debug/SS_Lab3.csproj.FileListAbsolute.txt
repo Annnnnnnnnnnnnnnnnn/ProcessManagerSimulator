@@ -1,0 +1,10 @@
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\bin\Debug\OS_Lab1.exe.config
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\bin\Debug\OS_Lab1.exe
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\bin\Debug\OS_Lab1.pdb
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\SS_Lab3.csprojAssemblyReference.cache
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\OS_Lab1.processApp.resources
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\OS_Lab1.Properties.Resources.resources
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\SS_Lab3.csproj.GenerateResource.cache
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\SS_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\OS_Lab1.exe
+C:\Users\Anna\Documents\Ann\Учеба\5 semester\ОС\SS_Lab3-master\OS_Lab1\obj\Debug\OS_Lab1.pdb

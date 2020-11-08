@@ -14,4 +14,72 @@ In `ProcessManager class` we have `List<Process> processes_queue` (it is the que
   
  
 ## DEMONSTRATION
+> Create process manager and timer
 
+### Code
+```
+  private Time cur_time = new Time();
+  private ProcessManager manager = new ProcessManager();
+```
+
+> Create StartButton
+
+### Code
+```
+private void startButton_Click(object sender, EventArgs e)
+        {
+            manager = new ProcessManager();
+            processBindingSource.DataSource = manager.done_processes;
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = processBindingSource;
+
+            avDelayBox.Text = "";
+            timerBox.Text = "0";
+            logBox.Text = "";
+            cur_time.reset();
+            timer.Enabled = true;
+            timer.Start();
+        }
+```
+> Create ResetButton
+### Code
+```
+private void resetButton_Click(object sender, EventArgs e)
+        {
+            timer.Stop();
+        }
+```
+
+> Create Timer
+```
+private void timer_Tick(object sender, EventArgs e)
+        {
+            
+            logBox.AppendText(manager.run_next(new Time(cur_time), timer.Interval));
+            logBox.AppendText(manager.gen_next(Int32.Parse(minComp.Text), Int32.Parse(maxComp.Text), timer.Interval, cur_time, Int32.Parse(maxProcesses.Text), 0.1));
+            if (manager.all_done(Int32.Parse(maxProcesses.Text))){
+                timer.Stop();
+                double sum_delay = 0.0;
+                foreach (Process pr in manager.done_processes)
+                {
+                    sum_delay += pr.deleyed.ToMsec();
+                }
+                avDelayBox.Text = new Time((int)sum_delay / manager.done_processes.Count).ToString();
+            }
+            cur_time.inc_msec(timer.Interval);
+            timerBox.Text = cur_time.ToString();    
+        }
+```
+We fix value of complexity range (500;5000) and max_processes = 10,  you can easily change these values
+![form](img/example_1.png)
+
+## Output
+
+This you can see how program works
+![example 1](img/example_1.png)
+
+This is a result of solving all processes
+![example 2](img/example_2.png)
+
+That a demonstration how you can stop processes solving 
+![example 3](/img/example_3.png)

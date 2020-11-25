@@ -1,4 +1,4 @@
-# ProcessManagerSimulator
+# ProcessManagerSimulator - FIFO Algorithm
 A custom simulation of process manager written on C#
 ## DESCRIPTION
 ### Brief description

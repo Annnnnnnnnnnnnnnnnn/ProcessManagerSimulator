@@ -84,3 +84,9 @@ This is a result of solving all processes
 
 That a demonstration how you can stop processes solving 
 ![example 3](/img/example_3.png)
+
+Графіки:
+Priority plot
+![graph1](img/graph1.png)
+Dependences between average waiting time and finish time
+![graph2](img/graph2.png)

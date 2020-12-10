@@ -87,6 +87,10 @@ That a demonstration how you can stop processes solving
 
 Графіки:
 Priority plot
+
+
 ![graph1](img/graph1.png)
+
 Dependences between average waiting time and finish time
+
 ![graph2](img/graph2.png)
